@@ -12,15 +12,15 @@ export default function About() {
             <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />
             <HeaderBar />
             <SideBar />
-            <div className="px-[375px] flex gap-[200px] justify-between text-gray-800">
+            <div className="px-[375px] w- flex gap-[200px] justify-between text-gray-800">
                 <div className="flex flex-col items-center gap-10 ">
                     <h1 className="text-3xl font-bold">About-me</h1>
                     <h2>I'm asdsadsadasdasdasdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas</h2>
                 </div>
                     <div className="flex flex-col items-center gap-10 font-semibold">
                         <h1 className="font-bold text-4xl">Skills</h1>
-                        <div className="flex gap-10">
-                            <ul className="text-xl flex flex-col gap-2">
+                        <div className="flex gap-10 justify-between">
+                            <ul className="text-xl w-max flex flex-col gap-2">
                                 <h1 className="font-bold text-3xl pb-2 text-bgOrange">Design:</h1>
                                 <li>- User Experience</li>
                                 <li>- User Interface</li>
