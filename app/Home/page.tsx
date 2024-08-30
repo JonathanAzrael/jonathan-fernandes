@@ -7,7 +7,7 @@ import Image from "next/image";
 
 import Background from "@/app/assets/background.png"
 
-export function HomePage() {
+export default function HomePage() {
     return(
         <div className=" w-full h-screen flex flex-col">
             <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />

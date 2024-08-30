@@ -15,8 +15,8 @@ export function HeaderBar() {
                     <nav className="flex gap-8">
                         <Link href="Home" className="hover:text-orange-300">Home</Link>
                         <Link href="About" className="hover:text-orange-300">About</Link>
-                        <a href="/" className="hover:text-orange-300">Projects</a>
-                        <a href="/" className="hover:text-orange-300">Contact</a>
+                        <a href="/Project" className="hover:text-orange-300">Projects</a>
+                        <a href="/Contact" className="hover:text-orange-300">Contact</a>
                     </nav>
                     <a href="/login" className="hover:opacity-50">
                         <Image alt="" src={Exit} className="w-[20px]" />

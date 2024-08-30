@@ -3,22 +3,22 @@
 import { AuthProvider } from "./components/Auth";
 import { HeaderBar } from "./components/Headerbar";
 import { SideBar } from "./components/Sidebar";
-import About from "./pages/About";
-import Project from "./pages/Project";
-import { HomePage } from "./pages/Home";
-import { Login } from "./pages/Login";
+import About from "./About/page";
+import Project from "./Project/page";
+import { HomePage } from "./Home/page";
+import { Login } from "./Login/page";
 
 
 export default function Home() {
   return (
     <>
-      <AuthProvider>
+      {/* <AuthProvider> */}
         {/* <Login /> */}
         {/* <HomePage /> */}
         {/* <About /> */}
-        <Project />
-      </AuthProvider>
-      {/* <HeaderBar /> */}
+        {/* <Project /> */}
+      {/* </AuthProvider> */}
+      <HeaderBar />
       {/* <SideBar /> */}
     </>
   );
