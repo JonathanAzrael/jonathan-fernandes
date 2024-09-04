@@ -21,12 +21,12 @@ export default function Logo() {
             <SideBar />
             <div className="flex px-[360px] gap-10">
                 <SideProject />
-            <div className="w-full h-auto text-center flex flex-col justify-between">
+            <div className="w-full bg-white/50 h-[640px] text-center flex flex-col gap-10 p-4">
                 <h1 className="font-bold text-3xl text-bgOrange">Logo</h1>
                 <div className="flex justify-between">
-                    <Image alt="" src={Logo1} className="w-[300px] hover:scale-125" />
-                    <Image alt="" src={Logo2} className="w-[300px] hover:scale-125" />
-                    <Image alt="" src={Logo1} className="w-[300px] hover:scale-125" />
+                    <Image alt="" src={Logo1} className="w-[300px] hover:scale-125 border rounded-3xl" />
+                    <Image alt="" src={Logo2} className="w-[300px] hover:scale-125 border rounded-3xl" />
+                    <Image alt="" src={Logo1} className="w-[300px] hover:scale-125 border rounded-3xl" />
                 </div>
             </div>
             </div>

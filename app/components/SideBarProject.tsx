@@ -11,8 +11,9 @@ export function SideProject() {
             </div>
             <h2 className="text-bgOrange font-semibold text-lg">Web Developer</h2>
             <div className="flex flex-col font-medium gap-2">
-                <a href="/" className="w-full p-2 border-b-2 border-bgOrange hover:text-white hover:bg-bgOrange">Logo</a>
-                <a href="/" className="w-full p-2 border-b-2 border-bgOrange hover:text-white hover:bg-bgOrange">Logo</a>
+                <a href="/" className="w-full p-2 border-b-2 border-bgOrange hover:text-white hover:bg-bgOrange">Landing Page</a>
+                <a href="/" className="w-full p-2 border-b-2 border-bgOrange hover:text-white hover:bg-bgOrange">Mobile</a>
+                <a href="/" className="w-full p-2 border-b-2 border-bgOrange hover:text-white hover:bg-bgOrange">System</a>
             </div>
         </div>
     )
