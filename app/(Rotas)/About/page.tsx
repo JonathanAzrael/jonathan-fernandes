@@ -28,7 +28,6 @@ export default function About() {
                                 <li>- Corel Draw</li>
                                 <li>- Illustrator</li>
                                 <li>- InDesign</li>
-                                <li>- Premiere</li>
                             </ul>
                             <ul className="text-xl flex flex-col gap-2">
                                 <h1 className="font-bold text-3xl pb-2 text-bgOrange">Tecnologies:</h1>

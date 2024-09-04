@@ -6,7 +6,8 @@ import { SideBar } from "@/app/components/Sidebar";
 import Image from "next/image";
 
 import Background from "@/app/assets/background.png"
-import { SideProject } from "../components/SideBarProject";
+import { SideProject } from "@/app/components/SideBarProject";
+
 
 export default function Project() {
     return(

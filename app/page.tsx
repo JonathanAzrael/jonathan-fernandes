@@ -1,7 +1,7 @@
 "use client";
 
 import { AuthProvider } from "./components/Auth";
-import HomePage from "./Home/page";
+import HomePage from "./(Rotas)/Home/page";
 import { Login } from "./Login/page";
 
 
