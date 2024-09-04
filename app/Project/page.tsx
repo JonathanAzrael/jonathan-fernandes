@@ -6,6 +6,7 @@ import { SideBar } from "@/app/components/Sidebar";
 import Image from "next/image";
 
 import Background from "@/app/assets/background.png"
+import { SideProject } from "../components/SideBarProject";
 
 export default function Project() {
     return(
@@ -13,8 +14,11 @@ export default function Project() {
             <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />
             <HeaderBar />
             <SideBar />
-            <div>
-                
+            <div className="flex px-[360px] gap-10">
+                <SideProject />
+            <div className="w-full bg-black h-auto">
+
+            </div>
             </div>
         </div>
     )
