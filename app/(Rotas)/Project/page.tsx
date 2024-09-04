@@ -17,7 +17,7 @@ export default function Project() {
             <SideBar />
             <div className="flex px-[360px] gap-10">
                 <SideProject />
-            <div className="w-full bg-black h-auto">
+            <div className="w-full bg-white/50 h-[640px] text-center flex flex-col gap-10 p-4">
 
             </div>
             </div>
