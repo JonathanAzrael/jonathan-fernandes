@@ -1,11 +1,10 @@
-// app/Login/LoginForm.tsx
 'use client';
 
 import { useState } from "react";
 import { useRouter } from 'next/router';
 import { useAuth } from "@/app/components/Auth";
 
-export function LoginForm() {
+export default function LoginForm() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const { login } = useAuth();
