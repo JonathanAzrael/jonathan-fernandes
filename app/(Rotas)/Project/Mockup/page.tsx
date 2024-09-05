@@ -19,9 +19,9 @@ export default function Mockup() {
             <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />
             <HeaderBar />
             <SideBar />
-            <div className="flex px-[360px] gap-10">
+            <div className="flex px-[160px] gap-10">
                 <SideProject />
-            <div className="w-full bg-white/50 border-t-bgOrange border-4 h-[640px] text-center flex flex-col gap-10 p-4">
+            <div className="w-full bg-white/50 border-t-bgOrange border-4 h-auto text-center flex flex-col gap-10 p-4">
                 <h1 className="font-bold text-3xl text-bgOrange">Mockup</h1>
                 <div className="flex justify-between">
                     <Image alt="" src={Mockup1} className="w-[300px] hover:scale-125 border rounded-3xl" />

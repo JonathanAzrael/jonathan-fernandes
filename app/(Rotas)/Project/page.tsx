@@ -15,9 +15,9 @@ export default function Project() {
             <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />
             <HeaderBar />
             <SideBar />
-            <div className="flex px-[360px] gap-10">
+            <div className="flex px-[160px] gap-10">
                 <SideProject />
-            <div className="w-full bg-white/50 border-t-bgOrange border-4 h-[640px] text-center flex flex-col gap-10 p-4">
+            <div className="w-full bg-white/50 border-t-bgOrange border-4 h-auto text-center flex flex-col gap-10 p-4">
 
             </div>
             </div>

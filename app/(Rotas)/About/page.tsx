@@ -12,7 +12,7 @@ export default function About() {
             <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />
             <HeaderBar />
             <SideBar />
-            <div className="mx-[360px] h-[640px] p-10 flex gap-[200px] bg-white/50 border-t-bgOrange border-4 justify-between text-gray-800">
+            <div className="mx-[160px] h-[640px] p-10 flex gap-[200px] bg-white/50 border-t-bgOrange border-4 justify-between text-gray-800">
                 <div className="flex flex-col items-center gap-10 ">
                     <h1 className="text-3xl font-bold">About-me</h1>
                     <h2>I'm asdsadsadasdasdasdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas sdasdas</h2>
