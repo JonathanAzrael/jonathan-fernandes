@@ -14,7 +14,6 @@ export default function Login() {
             <div className="flex flex-col justify-between items-center bg-white shadow-2xl w-[400px] h-[500px] rounded-3xl p-10">
                 <Image alt="logo" src={Logo} className="w-[140px]" />
                 <h1 className="font-semibold text-xl">Access my Portfolio</h1>
-                <LoginForm />
             </div>
         </div>
     )
