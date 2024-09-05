@@ -1,7 +1,6 @@
 'use client';
 
 import Image from "next/image"
-import Link from "next/link"
 
 import Logo from "@/app/assets/Logo2.png"
 import Exit from "@/app/assets/exit.svg"
@@ -13,8 +12,8 @@ export function HeaderBar() {
                 <Image alt="" src={Logo} className="w-[120px] hover:opacity-50" />
                 <div className="flex gap-20 items-center">
                     <nav className="flex gap-8">
-                        <Link href="Home" className="hover:text-orange-300">Home</Link>
-                        <Link href="About" className="hover:text-orange-300">About</Link>
+                        <a href="Home" className="hover:text-orange-300">Home</a>
+                        <a href="About" className="hover:text-orange-300">About</a>
                         <a href="/Project" className="hover:text-orange-300">Projects</a>
                         <a href="/Contact" className="hover:text-orange-300">Contact</a>
                     </nav>
