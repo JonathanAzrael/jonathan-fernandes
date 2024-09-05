@@ -7,7 +7,7 @@ import Exit from "@/app/assets/exit.svg"
 
 export function HeaderBar() {
     return(
-        <div className="w-full flex mt-4 mb-[80px] items-center justify-center">
+        <div className="w-full hidden md:flex mt-4 mb-[80px] items-center justify-center">
             <div className="flex justify-between items-center p-4 px-14 w-auto lg:w-[1200px] bg-white/50 border-2 border-bgOrange rounded-full text-bgOrange font-semibold">
                 <Image alt="" src={Logo} className="w-[120px] hover:opacity-50" />
                 <div className="flex gap-20 items-center">
