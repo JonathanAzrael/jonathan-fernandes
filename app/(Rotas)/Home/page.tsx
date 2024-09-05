@@ -13,7 +13,7 @@ export default function HomePage() {
             <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />
             <HeaderBar />
             <SideBar />
-            <div className="flex flex-col w-full justify-center px-[360px]">
+            <div className="flex flex-col w-auto justify-center p-10 mx-[360px] bg-white/50 border-t-bgOrange border-4">
                 <div className="flex gap-8 justify-between w-full">
                     <div className="flex flex-col text-black gap-2">
                         <h3 className="text-6xl font-semibold">Welcome to my Portfolio</h3>

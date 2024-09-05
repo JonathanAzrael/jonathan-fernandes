@@ -9,7 +9,7 @@ import Logo from "@/app/assets/Logo.png";
 import Background from "@/app/assets/background.png";
 import { LoginForm } from "./LoginForm";
 
-export function Login() {
+export default function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const { login } = useAuth();
