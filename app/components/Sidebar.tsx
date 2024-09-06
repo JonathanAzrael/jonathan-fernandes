@@ -11,7 +11,9 @@ export function SideBar() {
                 <Image alt="" src={Github} className="w-[50px] hover:scale-150 opacity-50 hover:opacity-100" />
             </a>
             <Image alt="" src={Email} className="w-[50px] hover:scale-150 opacity-50 hover:opacity-100" />
-            <Image alt="" src={Whatsapp} className="w-[50px] hover:scale-150 opacity-50 hover:opacity-100 " />
+            <a href="https://api.whatsapp.com/send?phone=5584991069968&text=Ol%C3%A1,%20estou%20interessado%20em%20seus%20servi%C3%A7os!">
+                <Image alt="" src={Whatsapp} className="w-[50px] hover:scale-150 opacity-50 hover:opacity-100 " />
+            </a>
         </div>
     )
 }

@@ -9,7 +9,9 @@ export function HeaderBar() {
     return(
         <div className="w-full hidden md:flex mt-4 mb-[80px] items-center justify-center">
             <div className="flex justify-between items-center p-4 px-14 w-auto lg:w-[1200px] bg-white/50 border-2 border-bgOrange rounded-full text-bgOrange font-semibold">
-                <Image alt="" src={Logo} className="w-[120px] hover:opacity-50" />
+                <a href="https://api.whatsapp.com/send?phone=5584991069968&text=Ol%C3%A1,%20estou%20interessado%20em%20seus%20servi%C3%A7os!">
+                    <Image alt="" src={Logo} className="w-[50px] hover:opacity-50" />
+                </a>
                 <div className="flex gap-20 items-center">
                     <nav className="flex gap-8">
                         <a href="/Home" className="hover:text-orange-300">Home</a>
