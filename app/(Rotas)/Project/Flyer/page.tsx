@@ -6,7 +6,7 @@ import { SideBar } from "@/app/components/Sidebar";
 import Image from "next/image";
 
 import Flyer1 from "@/app/assets/flyer-1.png"
-import Logo2 from "@/app/assets/logo-2.png"
+import Flyer2 from "@/app/assets/flyer-2.png"
 import Logo3 from "@/app/assets/logo-3.png"
 
 import Background from "@/app/assets/background.png"
@@ -26,8 +26,8 @@ export default function Flyer() {
                 <div className="flex flex-col gap-10 justify-between">
                         <div className="flex justify-between"> 
                             <Image alt="" src={Flyer1} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            {/* <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" /> */}
+                            <Image alt="" src={Flyer2} className="w-[300px] h-max hover:scale-125 border rounded-3xl" />
+                            {/* <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" /> */}
                         </div>
                         <div className="flex justify-between"> 
                             {/* <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" />
