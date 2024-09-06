@@ -25,14 +25,14 @@ export default function Flyer() {
                 <h1 className="font-bold text-3xl text-bgOrange">Flyer</h1>
                 <div className="flex flex-col gap-10 justify-between">
                         <div className="flex justify-between"> 
-                            <Image alt="" src={Flyer1} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={Flyer2} className="w-[300px] h-max hover:scale-125 border rounded-3xl" />
-                            {/* <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" /> */}
+                            <Image alt="" src={Flyer1} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Flyer2} className="lg:w-[240px] h-max hover:scale-125 border rounded-3xl" />
+                            {/* <Image alt="" src={} className="lg:w-[240px] hover:scale-125 border rounded-3xl" /> */}
                         </div>
                         <div className="flex justify-between"> 
-                            {/* <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" /> */}
+                            {/* <Image alt="" src={} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={} className="lg:w-[240px] hover:scale-125 border rounded-3xl" /> */}
                         </div>
                 </div>
             </div>

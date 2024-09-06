@@ -25,14 +25,14 @@ export default function Logo() {
                 <h1 className="font-bold text-3xl text-bgOrange">Logo</h1>
                 <div className="flex flex-col gap-10 justify-between">
                         <div className="flex justify-between"> 
-                            <Image alt="" src={Logo1} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={Logo2} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={Logo3} className="w-[300px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Logo1} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Logo2} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Logo3} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
                         </div>
                         <div className="flex justify-between"> 
-                            {/* <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={} className="w-[300px] hover:scale-125 border rounded-3xl" /> */}
+                            {/* <Image alt="" src={} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={} className="lg:w-[240px] hover:scale-125 border rounded-3xl" /> */}
                         </div>
                 </div>
             </div>

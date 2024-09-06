@@ -28,14 +28,14 @@ export default function Mockup() {
                     <h1 className="font-bold text-3xl text-bgOrange">Mockup</h1>
                     <div className="flex flex-col justify-between gap-10">
                         <div className="flex justify-between"> 
-                            <Image alt="" src={Mockup1} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={Mockup2} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={Mockup3} className="w-[300px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Mockup1} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Mockup2} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Mockup3} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
                         </div>
                         <div className="flex justify-between"> 
-                            <Image alt="" src={Mockup4} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={Mockup5} className="w-[300px] hover:scale-125 border rounded-3xl" />
-                            <Image alt="" src={Mockup6} className="w-[300px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Mockup4} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Mockup5} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
+                            <Image alt="" src={Mockup6} className="lg:w-[240px] hover:scale-125 border rounded-3xl" />
                         </div>
                     </div>
                 </div>
