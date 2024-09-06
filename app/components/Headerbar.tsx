@@ -8,7 +8,7 @@ import Exit from "@/app/assets/exit.svg"
 export function HeaderBar() {
     return(
         <div className="w-full hidden md:flex mt-4 mb-[80px] items-center justify-center">
-            <div className="flex justify-between items-center p-4 px-14 w-auto lg:w-[1200px] bg-white/50 border-2 border-bgOrange rounded-full text-bgOrange font-semibold">
+            <div className="flex justify-between items-center p-4 px-14 w-full lg:mx-[160px] bg-white/50 border-2 border-bgOrange rounded-full text-bgOrange font-semibold">
                 <a href="https://api.whatsapp.com/send?phone=5584991069968&text=Ol%C3%A1,%20estou%20interessado%20em%20seus%20servi%C3%A7os!">
                     <Image alt="" src={Logo} className="w-[50px] hover:opacity-50" />
                 </a>
