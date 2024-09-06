@@ -10,7 +10,7 @@ import Background from "@/app/assets/background.png"
 export default function HomePage() {
     return(
         <div className=" w-full h-screen flex flex-col">
-            <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />
+            <Image alt="" src={Background} className="w-full h-screen z-[-1] fixed" />
             <HeaderBar />
             <SideBar />
             <div className="flex flex-col w-auto justify-center p-10  lg:mx-[160px]  bg-white/50 border-t-bgOrange border-4">

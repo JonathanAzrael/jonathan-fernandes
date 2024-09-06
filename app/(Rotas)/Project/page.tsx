@@ -12,7 +12,7 @@ import { SideProject } from "@/app/components/SideBarProject";
 export default function Project() {
     return(
         <div className="w-full h-screen flex flex-col">
-            <Image alt="" src={Background} className="w-full h-screen z-[-1] absolute" />
+            <Image alt="" src={Background} className="w-full h-screen z-[-1] fixed" />
             <HeaderBar />
             <SideBar />
             <div className="flex px-[160px] gap-10">
