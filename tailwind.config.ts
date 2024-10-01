@@ -10,6 +10,9 @@ const config: Config = {
     extend: {
       colors: {
           bgOrange: '#FF6600',
+      },
+      fontFamily: {
+        'protest': ['Protest Guerrilla', 'sans-serif'],
       }
     },
   },
